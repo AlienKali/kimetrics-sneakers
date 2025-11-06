@@ -11,7 +11,7 @@ conn = psycopg2.connect(
 
 cur = conn.cursor()
 
-cur.execute("SELECT version();")
+cur.execute("SELECT * from ventas;")
 
 db_version = cur.fetchone()
 print(db_version)
