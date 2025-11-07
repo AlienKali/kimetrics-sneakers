@@ -49,7 +49,7 @@ def obtener_y_graficar_top_productos():
         # Configuraciones del gráfico
         plt.xlabel('Cantidad Total Vendida', fontsize=12)
         plt.ylabel('Producto', fontsize=12)
-        plt.title('Top 5 Productos Más Vendidos', fontsize=14, fontweight='bold')
+        plt.title('Top 10 Productos Más Vendidos', fontsize=14, fontweight='bold')
         plt.gca().invert_yaxis() # Invierte el eje Y para que el producto #1 quede arriba
         plt.tight_layout() # Ajusta el diseño para que no se corten las etiquetas
         
